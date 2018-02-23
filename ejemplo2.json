@@ -1,0 +1,54 @@
+{
+  "errorCode": 0, 
+  "errorString": "ok", 
+  "hotspots": [
+    {
+      "anchor": {
+        "geolocation": {
+          "lat": 17.0790815, 
+          "lon": -96.7443033 
+        }
+      }, 
+      "id": 1, 
+      "text": {
+        "title": "This is a basic POI"
+      }
+    }, 
+    {
+      "anchor": {
+        "geolocation": {
+          "lat": 17.0790815, 
+          "lon": -96.7443033 
+        }
+      }, 
+      "icon": {
+        "url": "http://ciudadania-express.com/wp-content/uploads/2011/02/itofachada.jpg"
+      }, 
+      "id": 2, 
+      "text": {
+        "description": "Description line 1\nDescription line 2\nand Description line 3", 
+        "title": "This POI has a custom icon and description"
+      }
+    }, 
+    {
+      "actions": [
+        {
+          "contentType": "text/html", 
+          "label": "Visit our hotspots documentation!", 
+          "uri": "https://www.layar.com/documentation/browser/api/getpois-response/hotspots/"
+        }
+      ], 
+      "anchor": {
+        "geolocation": {
+          "lat": 17.0790815, 
+          "lon": -96.7443033 
+        }
+      }, 
+      "id": 3, 
+      "text": {
+        "title": "This POI has an action"
+      }
+    }
+  ], 
+  "layer": ""
+}
